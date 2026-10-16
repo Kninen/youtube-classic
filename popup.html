@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YouTube Classic</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon32.png" alt="" width="28" height="28" />
+      <div>
+        <h1>YouTube Classic</h1>
+        <p>Videos on the right, comments under the player.</p>
+      </div>
+    </header>
+    <label class="option">
+      <input id="disable-commenting" type="checkbox" />
+      <span>
+        <strong>Disable commenting</strong>
+        <small>Removes the comment box and reply buttons.</small>
+      </span>
+    </label>
+    <label class="option">
+      <input id="hide-shorts" type="checkbox" />
+      <span>
+        <strong>Remove Shorts</strong>
+        <small>Hides Shorts rows on the home page.</small>
+      </span>
+    </label>
+    <label class="option">
+      <input id="hide-games" type="checkbox" />
+      <span>
+        <strong>Remove Games</strong>
+        <small>Hides the games row on the home page.</small>
+      </span>
+    </label>
+    <script src="popup.js"></script>
+  </body>
+</html>
